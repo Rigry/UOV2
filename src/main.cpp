@@ -1,14 +1,17 @@
 #define STM32F030x6
+#define F_OSC   8000000UL
 #define F_CPU   48000000UL
 
-#include "periph_rcc.h"
 #include "init_clock.h"
+#include "periph_rcc.h"
+#include "periph_flash.h"
+#include "flash.h"
 #include "pin.h"
 #include "adc.h"
 // #include "sensor.h"
 
 /// эта функция вызывается первой в startup файле
-extern "C" void init_clock () { init_clock<8_MHz,F_CPU>(); }
+extern "C" void init_clock () { init_clock<F_OSC,F_CPU>(); }
 
 using EPRA     = mcu::PA3;
 using UV_ON    = mcu::PA1;
@@ -35,8 +38,8 @@ int main()
    }flash;
 
    [[maybe_unused]] auto _ = Flash_updater<
-        mcu::FLASH::Sector::_10
-      , mcu::FLASH::Sector::_9
+        mcu::FLASH::Sector::_26
+      , mcu::FLASH::Sector::_25
    >::make (&flash);
 
    auto[epra, uz, en_uv, en_uz, rc, rc_on] = make_pins<mcu::PinMode::Input, EPRA, UZ, EN_UV, EN_UZ, RC, RC_ON>();
@@ -49,6 +52,8 @@ int main()
       ADC_channel& temperature = control.add_channel<mcu::PA4>();
       ADC_channel& uv_level    = control.add_channel<mcu::PA5>();
    }adc;
+
+   adc.control.start();
    
    // volatile uint16_t temperature{0};
    // auto temp = [&](uint16_t adc) {
@@ -61,12 +66,20 @@ int main()
    //    temperature = (p - NTC::u2904<U,R>);
    // };
 
+   bool uzon{false};
+   bool uzen{false};
+
    while(1){
 
-      uv_on = en_uv ? true : false;
-      uz_on = en_uz ? true : false;
+      flash.max_uv_level = adc.uv_level > flash.max_uv_level ? adc.uv_level : flash.max_uv_level;
       
-      level    = (en_uv & (adc.uv_level < (flash.max_uv_level * 0.4);
+      uv_work = uv_on = en_uv ? true : false;
+      uz_work = uz_on = en_uz ? true : false;
+
+      uzon = uz_on;
+      uzen = en_uz;
+      
+      level    = (en_uv & (adc.uv_level < (flash.max_uv_level * 0.4)));
       uv_alarm = (en_uv & not epra) ? true : false;
       uz_alarm = (en_uz & not uz  ) ? true : false;
 

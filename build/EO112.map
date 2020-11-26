@@ -1,31 +1,85 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
-                              /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (exit)
-/home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
-                              /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
-/home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
-                              /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (__libc_init_array)
-/home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
-                              /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (memset)
-/home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(_exit.o)
-                              /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o) (_exit)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
+                              build/main.o (__aeabi_atexit)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o) (__cxa_atexit)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (exit)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (__libc_init_array)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+                              build/main.o (memcpy)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (memset)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-on_exit_args.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o) (__on_exit_args)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+                              build/main.o (__gnu_thumb1_case_uqi)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uhi.o)
+                              build/main.o (__gnu_thumb1_case_uhi)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                              build/main.o (__aeabi_uidiv)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+                              build/main.o (__aeabi_idiv)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+                              build/main.o (__aeabi_dcmplt)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o) (__gedf2)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o) (__ledf2)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+                              build/main.o (__aeabi_dmul)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatsidf.o)
+                              build/main.o (__aeabi_i2d)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+                              build/main.o (__aeabi_ui2d)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o) (__clzsi2)
+/home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a(_exit.o)
+                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o) (_exit)
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
- .data          0x0000000000000000        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
- .text          0x0000000000000000       0x78 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
- .ARM.extab     0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
- .ARM.exidx     0x0000000000000000        0x8 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+ .text          0x0000000000000000       0x78 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
  .ARM.attributes
-                0x0000000000000000       0x1b /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+                0x0000000000000000       0x1b /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
  .group         0x0000000000000000        0xc build/main.o
  .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0xc build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
+ .group         0x0000000000000000        0x8 build/main.o
  .group         0x0000000000000000        0x8 build/main.o
  .group         0x0000000000000000        0x8 build/main.o
  .group         0x0000000000000000        0x8 build/main.o
@@ -55,57 +109,146 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/main.o
  .data          0x0000000000000000        0x0 build/main.o
  .bss           0x0000000000000000        0x0 build/main.o
- .text._ZN3mcu5FLASH6unlockEv
-                0x0000000000000000       0x18 build/main.o
- .text._ZN3mcu5FLASH11start_eraseENS0_6SectorE
-                0x0000000000000000       0x24 build/main.o
+ .text._ZN5Timer5eventEv
+                0x0000000000000000       0x12 build/main.o
+ .text._ZN5Timer4doneEv
+                0x0000000000000000        0xe build/main.o
+ .text._ZN5Timer7isCountEv
+                0x0000000000000000        0x4 build/main.o
+ .text._ZN5Timer10timePassedEv
+                0x0000000000000000        0x4 build/main.o
+ .text._ZN5Timer8timeLeftEv
+                0x0000000000000000        0x8 build/main.o
+ .text._ZN5Timer9isGreaterEm
+                0x0000000000000000        0xa build/main.o
+ .text._ZN14TickSubscriber16tick_unsubscribeEv
+                0x0000000000000000       0x40 build/main.o
+ .text._ZN5Timer4stopEv
+                0x0000000000000000        0xc build/main.o
+ .text._ZN5Timer5pauseEv
+                0x0000000000000000        0x8 build/main.o
+ .text._ZN5Timer5startEm
+                0x0000000000000000        0xa build/main.o
+ .text._ZN5Timer5startEv
+                0x0000000000000000        0x8 build/main.o
+ .text._ZN3mcu3DMA21clear_interrupt_flagsENS0_7ChannelE
+                0x0000000000000000        0xe build/main.o
+ .text._ZN3mcu3DMA30is_transfer_complete_interruptENS0_7ChannelE
+                0x0000000000000000       0x16 build/main.o
+ .text._ZN3mcu5USART3setENS0_8BaudrateENS_6PeriphE
+                0x0000000000000000       0x88 build/main.o
+ .text._ZN3mcu3TIM14compare_enableENS0_7ChannelE
+                0x0000000000000000       0x32 build/main.o
+ .text._ZN3mcu3TIM15compare_disableENS0_7ChannelE
+                0x0000000000000000       0x38 build/main.o
+ .text._ZN3mcu3TIM16interrupt_enableENS0_7ChannelE
+                0x0000000000000000       0x2c build/main.o
+ .text._ZN3mcu3TIM10is_compareENS0_7ChannelE
+                0x0000000000000000       0x2e build/main.o
+ .text._ZN3mcu3TIM11set_compareENS0_7ChannelEm
+                0x0000000000000000       0x20 build/main.o
+ .text._ZN3mcu4EXTI11set_triggerENS0_4EdgeEib
+                0x0000000000000000       0x38 build/main.o
+ .text._ZN3mcu4EXTI14toggle_triggerENS0_4EdgeEi
+                0x0000000000000000       0x22 build/main.o
+ .text._ZN3mcu4EXTI21clear_interrupt_flagsEi
+                0x0000000000000000       0x34 build/main.o
  .text          0x0000000000000000       0x14 build/startup_stm32f030x6.o
  .data          0x0000000000000000        0x0 build/startup_stm32f030x6.o
  .bss           0x0000000000000000        0x0 build/startup_stm32f030x6.o
- .text          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
- .text.exit     0x0000000000000000       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
- .debug_frame   0x0000000000000000       0x28 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+ .rodata.__cxa_atexit_dummy
+                0x0000000000000000        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
  .ARM.attributes
-                0x0000000000000000       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
- .text          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000000000000       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .data._impure_ptr
-                0x0000000000000000        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000000000000        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .data.impure_data
-                0x0000000000000000       0x60 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000000000000       0x60 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .rodata._global_impure_ptr
-                0x0000000000000000        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000000000000        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000000000000000       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
- .text          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
- .text          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
- .text.memset   0x0000000000000000       0x10 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000000000       0x20 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x0000000000000000       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-on_exit_args.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-on_exit_args.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-on_exit_args.o)
+ .bss._on_exit_args_instance
+                0x0000000000000000      0x108 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-on_exit_args.o)
+ .rodata.__on_exit_args
+                0x0000000000000000        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-on_exit_args.o)
  .ARM.attributes
-                0x0000000000000000       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
- .text          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(_exit.o)
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(_exit.o)
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(_exit.o)
- .text._exit    0x0000000000000000        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(_exit.o)
- .debug_frame   0x0000000000000000       0x20 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(_exit.o)
+                0x0000000000000000       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-on_exit_args.o)
+ .text          0x0000000000000000       0x14 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
  .ARM.attributes
-                0x0000000000000000       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(_exit.o)
- .text          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtend.o
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtend.o
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtend.o
- .eh_frame      0x0000000000000000        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtend.o
+                0x0000000000000000       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uhi.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uhi.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000      0x1d4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000000       0x20 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
  .ARM.attributes
-                0x0000000000000000       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtend.o
- .text          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtn.o
- .data          0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtn.o
- .bss           0x0000000000000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtn.o
+                0x0000000000000000       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatsidf.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatsidf.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a(_exit.o)
+ .text._exit    0x0000000000000000        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a(_exit.o)
+ .debug_frame   0x0000000000000000       0x20 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .text          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+ .data          0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+ .bss           0x0000000000000000        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
 
 Memory Configuration
 
@@ -116,31 +259,31 @@ FLASH            0x0000000008000000 0x0000000000008000 xr
 
 Linker script and memory map
 
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
 LOAD build/main.o
 LOAD build/startup_stm32f030x6.o
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++_nano.a
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libm.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
 START GROUP
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
 END GROUP
 START GROUP
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
 END GROUP
 START GROUP
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/libgcc.a
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
 END GROUP
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtend.o
-LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtn.o
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+LOAD /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
                 0x0000000020001000                _estack = 0x20001000
                 0x0000000000000200                _Min_Heap_Size = 0x200
                 0x0000000000000400                _Min_Stack_Size = 0x400
@@ -152,232 +295,500 @@ LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eab
                 0x0000000008000000                g_pfnVectors
                 0x00000000080000c0                . = ALIGN (0x4)
 
-.text           0x00000000080000c0      0x4f4
+.text           0x00000000080000c0     0x1d9c
                 0x00000000080000c0                . = ALIGN (0x4)
  *(.text)
- .text          0x00000000080000c0       0x48 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
+ .text          0x00000000080000c0       0x48 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .text          0x0000000008000108       0x14 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uhi.o)
+                0x0000000008000108                __gnu_thumb1_case_uhi
+ .text          0x000000000800011c      0x114 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                0x000000000800011c                __udivsi3
+                0x000000000800011c                __aeabi_uidiv
+                0x0000000008000228                __aeabi_uidivmod
+ .text          0x0000000008000230        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000008000230                __aeabi_ldiv0
+                0x0000000008000230                __aeabi_idiv0
+ .text          0x0000000008000234       0x7c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+                0x0000000008000234                __aeabi_cdrcmple
+                0x0000000008000244                __aeabi_cdcmple
+                0x0000000008000244                __aeabi_cdcmpeq
+                0x0000000008000254                __aeabi_dcmpeq
+                0x0000000008000260                __aeabi_dcmplt
+                0x0000000008000274                __aeabi_dcmple
+                0x0000000008000288                __aeabi_dcmpgt
+                0x000000000800029c                __aeabi_dcmpge
+ .text          0x00000000080002b0       0x78 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+                0x00000000080002b0                __eqdf2
+                0x00000000080002b0                __nedf2
+ .text          0x0000000008000328       0xc8 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+                0x0000000008000328                __gtdf2
+                0x0000000008000328                __gedf2
+ .text          0x00000000080003f0       0xd0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+                0x00000000080003f0                __ltdf2
+                0x00000000080003f0                __ledf2
+ .text          0x00000000080004c0      0x4e4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+                0x00000000080004c0                __aeabi_dmul
+ .text          0x00000000080009a4       0x74 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatsidf.o)
+                0x00000000080009a4                __aeabi_i2d
+ .text          0x0000000008000a18       0x64 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+                0x0000000008000a18                __aeabi_ui2d
+ .text          0x0000000008000a7c       0x3c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+                0x0000000008000a7c                __clzsi2
  *(.text*)
+ .text.NVIC_EnableIRQ
+                0x0000000008000ab8       0x14 build/main.o
+ .text._ZN11ADC_averageD2Ev
+                0x0000000008000acc       0x20 build/main.o
+                0x0000000008000acc                ADC_average::~ADC_average()
+                0x0000000008000acc                ADC_average::~ADC_average()
+ .text._ZN11ADC_average9interruptEv
+                0x0000000008000aec       0x46 build/main.o
+                0x0000000008000aec                ADC_average::interrupt()
+ .text._ZSt9__find_ifIPbN9__gnu_cxx5__ops12_Iter_negateIZZN18Flash_updater_implIZ4mainE10Flash_dataJLN3mcu5FLASH6SectorE26ELS8_25EEE7is_readEvENKUlvE_clEvEUlRT_E_EEESB_SB_SB_T0_St26random_access_iterator_tag.isra.6
+                0x0000000008000b32       0x5c build/main.o
+ .text._ZSt9__find_ifIPbN9__gnu_cxx5__ops10_Iter_predIZN18Flash_updater_implIZ4mainE10Flash_dataJLN3mcu5FLASH6SectorE26ELS8_25EEE7is_readEvEUlRT_E2_EEESA_SA_SA_T0_St26random_access_iterator_tag.isra.17
+                0x0000000008000b8e       0x5c build/main.o
+ .text._ZN9Interrupt9interruptEv.isra.54
+                0x0000000008000bea       0x16 build/main.o
+ .text._ZN3mcu5FLASH6unlockEv
+                0x0000000008000c00       0x18 build/main.o
+                0x0000000008000c00                mcu::FLASH::unlock()
+ .text._ZN3mcu5FLASH11start_eraseENS0_6SectorE
+                0x0000000008000c18       0x24 build/main.o
+                0x0000000008000c18                mcu::FLASH::start_erase(mcu::FLASH::Sector)
+ .text._ZN18Flash_updater_implIZ4mainE10Flash_dataJLN3mcu5FLASH6SectorE26ELS3_25EEE6notifyEv
+                0x0000000008000c3c      0x238 build/main.o
+ .text._ZN9Publisher6notifyEv
+                0x0000000008000e74       0x16 build/main.o
+                0x0000000008000e74                Publisher::notify()
+ .text._ZN11TickUpdater9interruptEv
+                0x0000000008000e8a       0x22 build/main.o
+                0x0000000008000e8a                TickUpdater::interrupt()
+ .text.SysTick_Handler
+                0x0000000008000eac       0x10 build/main.o
+                0x0000000008000eac                SysTick_Handler
+ .text._ZN14TickSubscriber14tick_subscribeEv
+                0x0000000008000ebc       0x28 build/main.o
+                0x0000000008000ebc                TickSubscriber::tick_subscribe()
+ .text._ZN3Pin6is_setEv
+                0x0000000008000ee4       0x14 build/main.o
+                0x0000000008000ee4                Pin::is_set()
+ .text._ZN3PinaSEb
+                0x0000000008000ef8       0x18 build/main.o
+                0x0000000008000ef8                Pin::operator=(bool)
+ .text.DMA1_Channel1_IRQHandler
+                0x0000000008000f10       0x1c build/main.o
+                0x0000000008000f10                DMA1_Channel1_IRQHandler
+ .text.DMA1_Channel2_3_IRQHandler
+                0x0000000008000f2c       0x2c build/main.o
+                0x0000000008000f2c                DMA1_Channel2_3_IRQHandler
+ .text.DMA1_Channel4_5_IRQHandler
+                0x0000000008000f58        0x2 build/main.o
+                0x0000000008000f58                DMA1_Channel4_5_IRQHandler
+ *fill*         0x0000000008000f5a        0x2 
+ .text.TIM1_BRK_UP_TRG_COM_IRQHandler
+                0x0000000008000f5c       0x20 build/main.o
+                0x0000000008000f5c                TIM1_BRK_UP_TRG_COM_IRQHandler
+ .text.TIM1_CC_IRQHandler
+                0x0000000008000f7c        0x8 build/main.o
+                0x0000000008000f7c                TIM1_CC_IRQHandler
+ .text.TIM3_IRQHandler
+                0x0000000008000f84       0x20 build/main.o
+                0x0000000008000f84                TIM3_IRQHandler
+ .text.TIM14_IRQHandler
+                0x0000000008000fa4        0x2 build/main.o
+                0x0000000008000fa4                TIM14_IRQHandler
+ .text.TIM16_IRQHandler
+                0x0000000008000fa6        0x2 build/main.o
+                0x0000000008000fa6                TIM16_IRQHandler
+ .text.TIM17_IRQHandler
+                0x0000000008000fa8        0x2 build/main.o
+                0x0000000008000fa8                TIM17_IRQHandler
+ *fill*         0x0000000008000faa        0x2 
+ .text.USART1_IRQHandler
+                0x0000000008000fac       0x1c build/main.o
+                0x0000000008000fac                USART1_IRQHandler
+ .text.EXTI0_1_IRQHandler
+                0x0000000008000fc8       0x34 build/main.o
+                0x0000000008000fc8                EXTI0_1_IRQHandler
+ .text.EXTI2_3_IRQHandler
+                0x0000000008000ffc       0x34 build/main.o
+                0x0000000008000ffc                EXTI2_3_IRQHandler
+ .text.EXTI4_15_IRQHandler
+                0x0000000008001030       0xec build/main.o
+                0x0000000008001030                EXTI4_15_IRQHandler
+ .text._ZN11ADC_average5startEv
+                0x000000000800111c       0x38 build/main.o
+                0x000000000800111c                ADC_average::start()
  .text.init_clock
-                0x0000000008000108       0x68 build/main.o
-                0x0000000008000108                init_clock
- .text._Z9make_pinsILN3mcu7PinModeE0EJNS0_4Pin_ILNS0_6PeriphE3ELi3EEENS2_ILS3_3ELi6EEENS2_ILS3_4ELi0EEENS2_ILS3_4ELi1EEENS2_ILS3_4ELi2EEEEEN4meta19tuple_generate_implIR3PinSt16integer_sequenceIjJXspcl14__integer_packsZT0_EEEEE4typeEv
-                0x0000000008000170      0x13c build/main.o
-                0x0000000008000170                meta::tuple_generate_impl<Pin&, std::integer_sequence<unsigned int, __integer_pack(5), __integer_pack(5), __integer_pack(5), __integer_pack(5), __integer_pack(5)> >::type make_pins<(mcu::PinMode)0, mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2> >()
- .text._Z9make_pinsILN3mcu7PinModeE1EJNS0_4Pin_ILNS0_6PeriphE3ELi1EEENS2_ILS3_3ELi12EEENS2_ILS3_3ELi11EEENS2_ILS3_3ELi10EEENS2_ILS3_3ELi0EEENS2_ILS3_3ELi9EEENS2_ILS3_3ELi8EEENS2_ILS3_4ELi15EEEEEN4meta19tuple_generate_implIR3PinSt16integer_sequenceIjJXspcl14__integer_packsZT0_EEEEE4typeEv
-                0x00000000080002ac      0x240 build/main.o
-                0x00000000080002ac                meta::tuple_generate_impl<Pin&, std::integer_sequence<unsigned int, __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8)> >::type make_pins<(mcu::PinMode)1, mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15> >()
+                0x0000000008001154       0x68 build/main.o
+                0x0000000008001154                init_clock
+ .text._Z9make_pinsILN3mcu7PinModeE0EJNS0_4Pin_ILNS0_6PeriphE3ELi3EEENS2_ILS3_3ELi6EEENS2_ILS3_4ELi0EEENS2_ILS3_4ELi1EEENS2_ILS3_4ELi2EEENS2_ILS3_4ELi10EEEEEN4meta19tuple_generate_implIR3PinNSt22_Make_integer_sequenceIjXsZT0_ENSt18_Build_index_tupleIXsZT0_EE6__typeEE6__typeEE4typeEv
+                0x00000000080011bc      0x180 build/main.o
+                0x00000000080011bc                meta::tuple_generate_impl<Pin&, std::_Make_integer_sequence<unsigned int, sizeof (mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2>, mcu::Pin_<(mcu::Periph)4, 10>), std::_Build_index_tuple<sizeof (mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2>, mcu::Pin_<(mcu::Periph)4, 10>)>::__type>::__type>::type make_pins<(mcu::PinMode)0, mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2>, mcu::Pin_<(mcu::Periph)4, 10> >()
+                0x00000000080011bc                meta::tuple_generate_impl<Pin&, std::_Make_integer_sequence<unsigned int, 6, std::_Build_index_tuple<6>::__type>::__type>::type make_pins<(mcu::PinMode)0, mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2>, mcu::Pin_<(mcu::Periph)4, 10> >()
+ .text._Z9make_pinsILN3mcu7PinModeE1EJNS0_4Pin_ILNS0_6PeriphE3ELi1EEENS2_ILS3_3ELi12EEENS2_ILS3_3ELi11EEENS2_ILS3_3ELi10EEENS2_ILS3_3ELi0EEENS2_ILS3_3ELi9EEENS2_ILS3_3ELi8EEENS2_ILS3_4ELi15EEEEEN4meta19tuple_generate_implIR3PinNSt22_Make_integer_sequenceIjXsZT0_ENSt18_Build_index_tupleIXsZT0_EE6__typeEE6__typeEE4typeEv
+                0x000000000800133c      0x240 build/main.o
+                0x000000000800133c                meta::tuple_generate_impl<Pin&, std::_Make_integer_sequence<unsigned int, 8, std::_Build_index_tuple<8>::__type>::__type>::type make_pins<(mcu::PinMode)1, mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15> >()
+                0x000000000800133c                meta::tuple_generate_impl<Pin&, std::_Make_integer_sequence<unsigned int, sizeof (mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15>), std::_Build_index_tuple<sizeof (mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15>)>::__type>::__type>::type make_pins<(mcu::PinMode)1, mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15> >()
+ .text._ZN11ADC_average4makeILN3mcu6PeriphE15ELS2_30EEERS_j
+                0x000000000800157c      0x11c build/main.o
+                0x000000000800157c                ADC_average& ADC_average::make<(mcu::Periph)15, (mcu::Periph)30>(unsigned int)
+ .text._ZN4ListI11ADC_channelE6insertENS1_8IteratorERS0_
+                0x0000000008001698       0x42 build/main.o
+                0x0000000008001698                List<ADC_channel>::insert(List<ADC_channel>::Iterator, ADC_channel&)
+ *fill*         0x00000000080016da        0x2 
+ .text._ZN9Dyn_arrayItE8add_sizeEj
+                0x00000000080016dc       0x74 build/main.o
+                0x00000000080016dc                Dyn_array<unsigned short>::add_size(unsigned int)
+ .text._ZN11ADC_average11add_channelIN3mcu4Pin_ILNS1_6PeriphE3ELi4EEEEER11ADC_channelv
+                0x0000000008001750       0xd0 build/main.o
+                0x0000000008001750                ADC_channel& ADC_average::add_channel<mcu::Pin_<(mcu::Periph)3, 4> >()
+ .text._ZN11ADC_average11add_channelIN3mcu4Pin_ILNS1_6PeriphE3ELi5EEEEER11ADC_channelv
+                0x0000000008001820       0xd0 build/main.o
+                0x0000000008001820                ADC_channel& ADC_average::add_channel<mcu::Pin_<(mcu::Periph)3, 5> >()
  .text.startup.main
-                0x00000000080004ec       0x14 build/main.o
-                0x00000000080004ec                main
+                0x00000000080018f0      0x2fc build/main.o
+                0x00000000080018f0                main
+ .text.startup._GLOBAL__sub_I__ZN3mcu5FLASH6unlockEv
+                0x0000000008001bec      0x170 build/main.o
  .text.Reset_Handler
-                0x0000000008000500       0x50 build/startup_stm32f030x6.o
-                0x0000000008000500                Reset_Handler
+                0x0000000008001d5c       0x50 build/startup_stm32f030x6.o
+                0x0000000008001d5c                Reset_Handler
  .text.Default_Handler
-                0x0000000008000550        0x2 build/startup_stm32f030x6.o
-                0x0000000008000550                TIM1_CC_IRQHandler
-                0x0000000008000550                HardFault_Handler
-                0x0000000008000550                SysTick_Handler
-                0x0000000008000550                PendSV_Handler
-                0x0000000008000550                NMI_Handler
-                0x0000000008000550                I2C1_IRQHandler
-                0x0000000008000550                SPI1_IRQHandler
-                0x0000000008000550                EXTI2_3_IRQHandler
-                0x0000000008000550                ADC1_IRQHandler
-                0x0000000008000550                TIM17_IRQHandler
-                0x0000000008000550                RTC_IRQHandler
-                0x0000000008000550                TIM16_IRQHandler
-                0x0000000008000550                TIM3_IRQHandler
-                0x0000000008000550                EXTI4_15_IRQHandler
-                0x0000000008000550                RCC_IRQHandler
-                0x0000000008000550                DMA1_Channel1_IRQHandler
-                0x0000000008000550                Default_Handler
-                0x0000000008000550                TIM14_IRQHandler
-                0x0000000008000550                DMA1_Channel4_5_IRQHandler
-                0x0000000008000550                EXTI0_1_IRQHandler
-                0x0000000008000550                SVC_Handler
-                0x0000000008000550                WWDG_IRQHandler
-                0x0000000008000550                DMA1_Channel2_3_IRQHandler
-                0x0000000008000550                FLASH_IRQHandler
-                0x0000000008000550                USART1_IRQHandler
-                0x0000000008000550                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x0000000008000552        0x2 
+                0x0000000008001dac        0x2 build/startup_stm32f030x6.o
+                0x0000000008001dac                HardFault_Handler
+                0x0000000008001dac                PendSV_Handler
+                0x0000000008001dac                NMI_Handler
+                0x0000000008001dac                I2C1_IRQHandler
+                0x0000000008001dac                SPI1_IRQHandler
+                0x0000000008001dac                ADC1_IRQHandler
+                0x0000000008001dac                RTC_IRQHandler
+                0x0000000008001dac                RCC_IRQHandler
+                0x0000000008001dac                Default_Handler
+                0x0000000008001dac                SVC_Handler
+                0x0000000008001dac                WWDG_IRQHandler
+                0x0000000008001dac                FLASH_IRQHandler
+ .text.__aeabi_atexit
+                0x0000000008001dae        0xe /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
+                0x0000000008001dae                __aeabi_atexit
+ .text.__cxa_atexit
+                0x0000000008001dbc       0x1c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+                0x0000000008001dbc                __cxa_atexit
  .text.__libc_init_array
-                0x0000000008000554       0x48 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
-                0x0000000008000554                __libc_init_array
+                0x0000000008001dd8       0x48 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+                0x0000000008001dd8                __libc_init_array
+ .text.memcpy   0x0000000008001e20       0x12 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008001e20                memcpy
+ .text.memset   0x0000000008001e32       0x10 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+                0x0000000008001e32                memset
  *(.glue_7)
- .glue_7        0x000000000800059c        0x0 linker stubs
+ .glue_7        0x0000000008001e42        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800059c        0x0 linker stubs
+ .glue_7t       0x0000000008001e42        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x000000000800059c        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
+ *fill*         0x0000000008001e42        0x2 
+ .eh_frame      0x0000000008001e44        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
  *(.init)
- .init          0x000000000800059c        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
-                0x000000000800059c                _init
- .init          0x00000000080005a0        0x8 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtn.o
+ .init          0x0000000008001e44        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                0x0000000008001e44                _init
+ .init          0x0000000008001e48        0x8 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
  *(.fini)
- .fini          0x00000000080005a8        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
-                0x00000000080005a8                _fini
- .fini          0x00000000080005ac        0x8 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtn.o
-                0x00000000080005b4                . = ALIGN (0x4)
-                0x00000000080005b4                _etext = .
+ .fini          0x0000000008001e50        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                0x0000000008001e50                _fini
+ .fini          0x0000000008001e54        0x8 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+                0x0000000008001e5c                . = ALIGN (0x4)
+                0x0000000008001e5c                _etext = .
 
-.vfp11_veneer   0x00000000080005b4        0x0
- .vfp11_veneer  0x00000000080005b4        0x0 linker stubs
+.vfp11_veneer   0x0000000008001e5c        0x0
+ .vfp11_veneer  0x0000000008001e5c        0x0 linker stubs
 
-.v4_bx          0x00000000080005b4        0x0
- .v4_bx         0x00000000080005b4        0x0 linker stubs
+.v4_bx          0x0000000008001e5c        0x0
+ .v4_bx         0x0000000008001e5c        0x0 linker stubs
 
-.iplt           0x00000000080005b4        0x0
- .iplt          0x00000000080005b4        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000008001e5c        0x0
+ .iplt          0x0000000008001e5c        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
 
-.rel.dyn        0x00000000080005b4        0x0
- .rel.iplt      0x00000000080005b4        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
-
-.rodata         0x00000000080005b4        0x0
-                0x00000000080005b4                . = ALIGN (0x4)
+.rodata         0x0000000008001e5c       0x5c
+                0x0000000008001e5c                . = ALIGN (0x4)
  *(.rodata)
+ .rodata        0x0000000008001e5c       0x40 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
  *(.rodata*)
-                0x00000000080005b4                . = ALIGN (0x4)
+ .rodata._ZN18Flash_updater_implIZ4mainE10Flash_dataJLN3mcu5FLASH6SectorE26ELS3_25EEE7sectorsE
+                0x0000000008001e9c        0x2 build/main.o
+ *fill*         0x0000000008001e9e        0x2 
+ .rodata._ZTV11ADC_average
+                0x0000000008001ea0        0xc build/main.o
+                0x0000000008001ea0                vtable for ADC_average
+ .rodata._ZTV18Flash_updater_implIZ4mainE10Flash_dataJLN3mcu5FLASH6SectorE26ELS3_25EEE
+                0x0000000008001eac        0xc build/main.o
+                0x0000000008001eb8                . = ALIGN (0x4)
+
+.rel.dyn        0x0000000008001eb8        0x0
+ .rel.iplt      0x0000000008001eb8        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00000000080005b4        0x0
-                0x00000000080005b4                __exidx_start = .
+.ARM            0x0000000008001eb8        0x0
+                0x0000000008001eb8                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080005b4                __exidx_end = .
+                0x0000000008001eb8                __exidx_end = .
 
-.preinit_array  0x00000000080005b4        0x0
-                0x00000000080005b4                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008001eb8        0x0
+                0x0000000008001eb8                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000080005b4                PROVIDE (__preinit_array_end = .)
+                0x0000000008001eb8                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x00000000080005b4        0x4
-                0x00000000080005b4                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008001eb8        0x8
+                0x0000000008001eb8                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080005b4        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x00000000080005b8                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008001eb8        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .init_array    0x0000000008001ebc        0x4 build/main.o
+                0x0000000008001ec0                PROVIDE (__init_array_end = .)
 
-.fini_array     0x00000000080005b8        0x4
+.fini_array     0x0000000008001ec0        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080005b8        0x4 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
+ .fini_array    0x0000000008001ec0        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00000000080005bc                _sidata = LOADADDR (.data)
+                0x0000000008001ec4                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x0 load address 0x00000000080005bc
+.data           0x0000000020000000        0x4 load address 0x0000000008001ec4
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
+ .data          0x0000000020000000        0x4 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x0000000020000000                __dso_handle
  *(.data*)
-                0x0000000020000000                . = ALIGN (0x4)
-                0x0000000020000000                _edata = .
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _edata = .
 
-.igot.plt       0x0000000020000000        0x0 load address 0x00000000080005bc
- .igot.plt      0x0000000020000000        0x0 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000020000000                . = ALIGN (0x4)
+.igot.plt       0x0000000020000004        0x0 load address 0x0000000008001ec8
+ .igot.plt      0x0000000020000004        0x0 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x0000000020000004                . = ALIGN (0x4)
 
-.bss            0x0000000020000000       0xb8 load address 0x00000000080005bc
-                0x0000000020000000                _sbss = .
-                0x0000000020000000                __bss_start__ = _sbss
+.bss            0x0000000020000004      0x340 load address 0x0000000008001ec8
+                0x0000000020000004                _sbss = .
+                0x0000000020000004                __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000000       0x1c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
+ .bss           0x0000000020000004       0x1c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
  *(.bss*)
+ .bss._ZGVZN11ADC_channel4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi5EEEEERS_vE3res
+                0x0000000020000020        0x4 build/main.o
+                0x0000000020000020                guard variable for ADC_channel::make<mcu::Pin_<(mcu::Periph)3, 5> >()::res
+ .bss._ZZN11ADC_channel4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi5EEEEERS_vE3res
+                0x0000000020000024       0x14 build/main.o
+                0x0000000020000024                ADC_channel::make<mcu::Pin_<(mcu::Periph)3, 5> >()::res
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi5EEELNS1_7PinModeE2ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000038        0x4 build/main.o
+                0x0000000020000038                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 5>, (mcu::PinMode)2, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi5EEELNS1_7PinModeE2ELNS1_8PushPullE0EEERDavE3pin
+                0x000000002000003c        0x8 build/main.o
+                0x000000002000003c                Pin::make<mcu::Pin_<(mcu::Periph)3, 5>, (mcu::PinMode)2, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN11ADC_channel4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi4EEEEERS_vE3res
+                0x0000000020000044        0x4 build/main.o
+                0x0000000020000044                guard variable for ADC_channel::make<mcu::Pin_<(mcu::Periph)3, 4> >()::res
+ .bss._ZZN11ADC_channel4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi4EEEEERS_vE3res
+                0x0000000020000048       0x14 build/main.o
+                0x0000000020000048                ADC_channel::make<mcu::Pin_<(mcu::Periph)3, 4> >()::res
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi4EEELNS1_7PinModeE2ELNS1_8PushPullE0EEERDavE3pin
+                0x000000002000005c        0x4 build/main.o
+                0x000000002000005c                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 4>, (mcu::PinMode)2, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi4EEELNS1_7PinModeE2ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000060        0x8 build/main.o
+                0x0000000020000060                Pin::make<mcu::Pin_<(mcu::Periph)3, 4>, (mcu::PinMode)2, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN11ADC_average4makeILN3mcu6PeriphE15ELS2_30EEERS_jE3res
+                0x0000000020000068        0x4 build/main.o
+                0x0000000020000068                guard variable for ADC_average::make<(mcu::Periph)15, (mcu::Periph)30>(unsigned int)::res
+ .bss._ZZN11ADC_average4makeILN3mcu6PeriphE15ELS2_30EEERS_jE3res
+                0x000000002000006c       0x40 build/main.o
+                0x000000002000006c                ADC_average::make<(mcu::Periph)15, (mcu::Periph)30>(unsigned int)::res
  .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi15EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x000000002000001c        0x4 build/main.o
-                0x000000002000001c                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 15>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi15EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000020        0x8 build/main.o
-                0x0000000020000020                Pin::make<mcu::Pin_<(mcu::Periph)4, 15>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi8EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000028        0x4 build/main.o
-                0x0000000020000028                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 8>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi8EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x000000002000002c        0x8 build/main.o
-                0x000000002000002c                Pin::make<mcu::Pin_<(mcu::Periph)3, 8>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi9EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000034        0x4 build/main.o
-                0x0000000020000034                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 9>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi9EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000038        0x8 build/main.o
-                0x0000000020000038                Pin::make<mcu::Pin_<(mcu::Periph)3, 9>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi0EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000040        0x4 build/main.o
-                0x0000000020000040                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 0>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi0EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000044        0x8 build/main.o
-                0x0000000020000044                Pin::make<mcu::Pin_<(mcu::Periph)3, 0>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi10EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x000000002000004c        0x4 build/main.o
-                0x000000002000004c                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 10>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi10EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000050        0x8 build/main.o
-                0x0000000020000050                Pin::make<mcu::Pin_<(mcu::Periph)3, 10>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi11EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000058        0x4 build/main.o
-                0x0000000020000058                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 11>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi11EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x000000002000005c        0x8 build/main.o
-                0x000000002000005c                Pin::make<mcu::Pin_<(mcu::Periph)3, 11>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi12EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000064        0x4 build/main.o
-                0x0000000020000064                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 12>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi12EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000068        0x8 build/main.o
-                0x0000000020000068                Pin::make<mcu::Pin_<(mcu::Periph)3, 12>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi1EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000070        0x4 build/main.o
-                0x0000000020000070                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 1>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi1EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000074        0x8 build/main.o
-                0x0000000020000074                Pin::make<mcu::Pin_<(mcu::Periph)3, 1>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi2EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
-                0x000000002000007c        0x4 build/main.o
-                0x000000002000007c                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 2>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi2EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000080        0x8 build/main.o
-                0x0000000020000080                Pin::make<mcu::Pin_<(mcu::Periph)4, 2>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi1EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000088        0x4 build/main.o
-                0x0000000020000088                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 1>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi1EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
-                0x000000002000008c        0x8 build/main.o
-                0x000000002000008c                Pin::make<mcu::Pin_<(mcu::Periph)4, 1>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi0EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000094        0x4 build/main.o
-                0x0000000020000094                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 0>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi0EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
-                0x0000000020000098        0x8 build/main.o
-                0x0000000020000098                Pin::make<mcu::Pin_<(mcu::Periph)4, 0>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi6EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
-                0x00000000200000a0        0x4 build/main.o
-                0x00000000200000a0                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 6>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi6EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
-                0x00000000200000a4        0x8 build/main.o
-                0x00000000200000a4                Pin::make<mcu::Pin_<(mcu::Periph)3, 6>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi3EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
                 0x00000000200000ac        0x4 build/main.o
-                0x00000000200000ac                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 3>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
- .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi3EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000ac                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 15>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi15EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
                 0x00000000200000b0        0x8 build/main.o
-                0x00000000200000b0                Pin::make<mcu::Pin_<(mcu::Periph)3, 3>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+                0x00000000200000b0                Pin::make<mcu::Pin_<(mcu::Periph)4, 15>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi8EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000b8        0x4 build/main.o
+                0x00000000200000b8                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 8>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi8EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000bc        0x8 build/main.o
+                0x00000000200000bc                Pin::make<mcu::Pin_<(mcu::Periph)3, 8>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi9EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000c4        0x4 build/main.o
+                0x00000000200000c4                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 9>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi9EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000c8        0x8 build/main.o
+                0x00000000200000c8                Pin::make<mcu::Pin_<(mcu::Periph)3, 9>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi0EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000d0        0x4 build/main.o
+                0x00000000200000d0                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 0>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi0EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000d4        0x8 build/main.o
+                0x00000000200000d4                Pin::make<mcu::Pin_<(mcu::Periph)3, 0>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi10EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000dc        0x4 build/main.o
+                0x00000000200000dc                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 10>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi10EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000e0        0x8 build/main.o
+                0x00000000200000e0                Pin::make<mcu::Pin_<(mcu::Periph)3, 10>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi11EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000e8        0x4 build/main.o
+                0x00000000200000e8                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 11>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi11EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000ec        0x8 build/main.o
+                0x00000000200000ec                Pin::make<mcu::Pin_<(mcu::Periph)3, 11>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi12EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000f4        0x4 build/main.o
+                0x00000000200000f4                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 12>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi12EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x00000000200000f8        0x8 build/main.o
+                0x00000000200000f8                Pin::make<mcu::Pin_<(mcu::Periph)3, 12>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi1EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000100        0x4 build/main.o
+                0x0000000020000100                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 1>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi1EEELNS1_7PinModeE1ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000104        0x8 build/main.o
+                0x0000000020000104                Pin::make<mcu::Pin_<(mcu::Periph)3, 1>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi10EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x000000002000010c        0x4 build/main.o
+                0x000000002000010c                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 10>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi10EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000110        0x8 build/main.o
+                0x0000000020000110                Pin::make<mcu::Pin_<(mcu::Periph)4, 10>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi2EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000118        0x4 build/main.o
+                0x0000000020000118                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 2>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi2EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x000000002000011c        0x8 build/main.o
+                0x000000002000011c                Pin::make<mcu::Pin_<(mcu::Periph)4, 2>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi1EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000124        0x4 build/main.o
+                0x0000000020000124                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 1>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi1EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000128        0x8 build/main.o
+                0x0000000020000128                Pin::make<mcu::Pin_<(mcu::Periph)4, 1>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi0EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000130        0x4 build/main.o
+                0x0000000020000130                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 0>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE4ELi0EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000134        0x8 build/main.o
+                0x0000000020000134                Pin::make<mcu::Pin_<(mcu::Periph)4, 0>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi6EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x000000002000013c        0x4 build/main.o
+                0x000000002000013c                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 6>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi6EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000140        0x8 build/main.o
+                0x0000000020000140                Pin::make<mcu::Pin_<(mcu::Periph)3, 6>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZGVZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi3EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x0000000020000148        0x4 build/main.o
+                0x0000000020000148                guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 3>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss._ZZN3Pin4makeIN3mcu4Pin_ILNS1_6PeriphE3ELi3EEELNS1_7PinModeE0ELNS1_8PushPullE0EEERDavE3pin
+                0x000000002000014c        0x8 build/main.o
+                0x000000002000014c                Pin::make<mcu::Pin_<(mcu::Periph)3, 3>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin
+ .bss.heap      0x0000000020000154      0x108 build/main.o
+                0x0000000020000154                heap
+ .bss.interrupt_DMA1_channel1
+                0x000000002000025c        0x8 build/main.o
+                0x000000002000025c                interrupt_DMA1_channel1
+ .bss.interrupt_DMA1_channel2
+                0x0000000020000264        0x8 build/main.o
+                0x0000000020000264                interrupt_DMA1_channel2
+ .bss.interrupt_DMA1_channel3
+                0x000000002000026c        0x8 build/main.o
+                0x000000002000026c                interrupt_DMA1_channel3
+ .bss.interrupt_DMA1_channel4
+                0x0000000020000274        0x8 build/main.o
+                0x0000000020000274                interrupt_DMA1_channel4
+ .bss.interrupt_DMA1_channel5
+                0x000000002000027c        0x8 build/main.o
+                0x000000002000027c                interrupt_DMA1_channel5
+ .bss.interrupt_EXTI0
+                0x0000000020000284        0x8 build/main.o
+                0x0000000020000284                interrupt_EXTI0
+ .bss.interrupt_EXTI1
+                0x000000002000028c        0x8 build/main.o
+                0x000000002000028c                interrupt_EXTI1
+ .bss.interrupt_EXTI10
+                0x0000000020000294        0x8 build/main.o
+                0x0000000020000294                interrupt_EXTI10
+ .bss.interrupt_EXTI11
+                0x000000002000029c        0x8 build/main.o
+                0x000000002000029c                interrupt_EXTI11
+ .bss.interrupt_EXTI12
+                0x00000000200002a4        0x8 build/main.o
+                0x00000000200002a4                interrupt_EXTI12
+ .bss.interrupt_EXTI13
+                0x00000000200002ac        0x8 build/main.o
+                0x00000000200002ac                interrupt_EXTI13
+ .bss.interrupt_EXTI14
+                0x00000000200002b4        0x8 build/main.o
+                0x00000000200002b4                interrupt_EXTI14
+ .bss.interrupt_EXTI15
+                0x00000000200002bc        0x8 build/main.o
+                0x00000000200002bc                interrupt_EXTI15
+ .bss.interrupt_EXTI2
+                0x00000000200002c4        0x8 build/main.o
+                0x00000000200002c4                interrupt_EXTI2
+ .bss.interrupt_EXTI3
+                0x00000000200002cc        0x8 build/main.o
+                0x00000000200002cc                interrupt_EXTI3
+ .bss.interrupt_EXTI4
+                0x00000000200002d4        0x8 build/main.o
+                0x00000000200002d4                interrupt_EXTI4
+ .bss.interrupt_EXTI5
+                0x00000000200002dc        0x8 build/main.o
+                0x00000000200002dc                interrupt_EXTI5
+ .bss.interrupt_EXTI6
+                0x00000000200002e4        0x8 build/main.o
+                0x00000000200002e4                interrupt_EXTI6
+ .bss.interrupt_EXTI7
+                0x00000000200002ec        0x8 build/main.o
+                0x00000000200002ec                interrupt_EXTI7
+ .bss.interrupt_EXTI8
+                0x00000000200002f4        0x8 build/main.o
+                0x00000000200002f4                interrupt_EXTI8
+ .bss.interrupt_EXTI9
+                0x00000000200002fc        0x8 build/main.o
+                0x00000000200002fc                interrupt_EXTI9
+ .bss.interrupt_rtc
+                0x0000000020000304        0x8 build/main.o
+                0x0000000020000304                interrupt_rtc
+ .bss.interrupt_spi1
+                0x000000002000030c        0x8 build/main.o
+                0x000000002000030c                interrupt_spi1
+ .bss.interrupt_tim1
+                0x0000000020000314        0x8 build/main.o
+                0x0000000020000314                interrupt_tim1
+ .bss.interrupt_tim3
+                0x000000002000031c        0x8 build/main.o
+                0x000000002000031c                interrupt_tim3
+ .bss.interrupt_usart1
+                0x0000000020000324        0x8 build/main.o
+                0x0000000020000324                interrupt_usart1
+ .bss.tickUpdater
+                0x000000002000032c       0x18 build/main.o
+                0x000000002000032c                tickUpdater
  *(COMMON)
-                0x00000000200000b8                . = ALIGN (0x4)
-                0x00000000200000b8                _ebss = .
-                0x00000000200000b8                __bss_end__ = _ebss
+                0x0000000020000344                . = ALIGN (0x4)
+                0x0000000020000344                _ebss = .
+                0x0000000020000344                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200000b8      0x600 load address 0x00000000080005bc
-                0x00000000200000b8                . = ALIGN (0x8)
+                0x0000000020000344      0x604 load address 0x0000000008001ec8
+                0x0000000020000348                . = ALIGN (0x8)
+ *fill*         0x0000000020000344        0x4 
                 [!provide]                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x00000000200002b8                . = (. + _Min_Heap_Size)
- *fill*         0x00000000200000b8      0x200 
-                0x00000000200006b8                . = (. + _Min_Stack_Size)
- *fill*         0x00000000200002b8      0x400 
-                0x00000000200006b8                . = ALIGN (0x8)
+                0x0000000020000548                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000348      0x200 
+                0x0000000020000948                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000548      0x400 
+                0x0000000020000948                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -388,162 +799,339 @@ LOAD /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eab
                 0x0000000000000000       0x28
  *(.ARM.attributes)
  .ARM.attributes
-                0x0000000000000000       0x1e /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
+                0x0000000000000000       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
  .ARM.attributes
-                0x000000000000001e       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000000000001e       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
  .ARM.attributes
-                0x000000000000004a       0x2c build/main.o
+                0x000000000000004a       0x31 build/main.o
  .ARM.attributes
-                0x0000000000000076       0x21 build/startup_stm32f030x6.o
+                0x000000000000007b       0x21 build/startup_stm32f030x6.o
  .ARM.attributes
-                0x0000000000000097       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
+                0x000000000000009c       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
  .ARM.attributes
-                0x00000000000000c3       0x1e /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtn.o
+                0x00000000000000c8       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+ .ARM.attributes
+                0x00000000000000f4       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000120       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000000000000014c       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000178       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uhi.o)
+ .ARM.attributes
+                0x0000000000000196       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000000001b4       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000000001d2       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000000000001f0       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x000000000000021c       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x0000000000000248       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x0000000000000274       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x00000000000002a0       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x00000000000002cc       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+ .ARM.attributes
+                0x00000000000002f8       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x0000000000000316       0x1e /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
 OUTPUT(build/EO112.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x140d9
- .debug_info    0x0000000000000000    0x140b7 build/main.o
- .debug_info    0x00000000000140b7       0x22 build/startup_stm32f030x6.o
+.debug_info     0x0000000000000000    0x2652e
+ .debug_info    0x0000000000000000    0x2650c build/main.o
+ .debug_info    0x000000000002650c       0x22 build/startup_stm32f030x6.o
 
-.debug_abbrev   0x0000000000000000      0xce7
- .debug_abbrev  0x0000000000000000      0xcd5 build/main.o
- .debug_abbrev  0x0000000000000cd5       0x12 build/startup_stm32f030x6.o
+.debug_abbrev   0x0000000000000000     0x142d
+ .debug_abbrev  0x0000000000000000     0x141b build/main.o
+ .debug_abbrev  0x000000000000141b       0x12 build/startup_stm32f030x6.o
 
-.debug_loc      0x0000000000000000     0x191f
- .debug_loc     0x0000000000000000     0x191f build/main.o
+.debug_loc      0x0000000000000000     0x3451
+ .debug_loc     0x0000000000000000     0x3451 build/main.o
 
-.debug_aranges  0x0000000000000000       0x70
+.debug_aranges  0x0000000000000000      0x220
  .debug_aranges
-                0x0000000000000000       0x48 build/main.o
+                0x0000000000000000      0x1f8 build/main.o
  .debug_aranges
-                0x0000000000000048       0x28 build/startup_stm32f030x6.o
+                0x00000000000001f8       0x28 build/startup_stm32f030x6.o
 
-.debug_ranges   0x0000000000000000      0x870
- .debug_ranges  0x0000000000000000      0x850 build/main.o
- .debug_ranges  0x0000000000000850       0x20 build/startup_stm32f030x6.o
+.debug_ranges   0x0000000000000000     0x14f8
+ .debug_ranges  0x0000000000000000     0x14d8 build/main.o
+ .debug_ranges  0x00000000000014d8       0x20 build/startup_stm32f030x6.o
 
-.debug_line     0x0000000000000000      0xf45
- .debug_line    0x0000000000000000      0xeb4 build/main.o
- .debug_line    0x0000000000000eb4       0x91 build/startup_stm32f030x6.o
+.debug_line     0x0000000000000000     0x1c9f
+ .debug_line    0x0000000000000000     0x1c0e build/main.o
+ .debug_line    0x0000000000001c0e       0x91 build/startup_stm32f030x6.o
 
-.debug_str      0x0000000000000000    0x13c10
- .debug_str     0x0000000000000000    0x13bd2 build/main.o
-                                      0x13ffa (size before relaxing)
- .debug_str     0x0000000000013bd2       0x3e build/startup_stm32f030x6.o
-                                         0x57 (size before relaxing)
+.debug_str      0x0000000000000000    0x23aa1
+ .debug_str     0x0000000000000000    0x23a64 build/main.o
+                                      0x2428f (size before relaxing)
+ .debug_str     0x0000000000023a64       0x3d build/startup_stm32f030x6.o
+                                         0x64 (size before relaxing)
 
-.comment        0x0000000000000000       0x75
- .comment       0x0000000000000000       0x75 build/main.o
-                                         0x76 (size before relaxing)
+.comment        0x0000000000000000       0x7f
+ .comment       0x0000000000000000       0x7f build/main.o
+                                         0x80 (size before relaxing)
 
-.debug_frame    0x0000000000000000       0xd8
- .debug_frame   0x0000000000000000       0xac build/main.o
- .debug_frame   0x00000000000000ac       0x2c /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
+.debug_frame    0x0000000000000000      0x7d0
+ .debug_frame   0x0000000000000000      0x5b4 build/main.o
+ .debug_frame   0x00000000000005b4       0x28 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
+ .debug_frame   0x00000000000005dc       0x28 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_frame   0x0000000000000604       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000630       0x28 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000658       0x20 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000678       0x20 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000698       0x38 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+ .debug_frame   0x00000000000006d0       0x38 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+ .debug_frame   0x0000000000000708       0x38 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+ .debug_frame   0x0000000000000740       0x3c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+ .debug_frame   0x000000000000077c       0x2c /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatsidf.o)
+ .debug_frame   0x00000000000007a8       0x28 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
 
 Cross Reference Table
 
 Symbol                                            File
 ADC1_IRQHandler                                   build/startup_stm32f030x6.o
-DMA1_Channel1_IRQHandler                          build/startup_stm32f030x6.o
-DMA1_Channel2_3_IRQHandler                        build/startup_stm32f030x6.o
-DMA1_Channel4_5_IRQHandler                        build/startup_stm32f030x6.o
+ADC_average& ADC_average::make<(mcu::Periph)15, (mcu::Periph)30>(unsigned int) build/main.o
+ADC_average::interrupt()                          build/main.o
+ADC_average::make<(mcu::Periph)15, (mcu::Periph)30>(unsigned int)::res build/main.o
+ADC_average::start()                              build/main.o
+ADC_average::~ADC_average()                       build/main.o
+ADC_average::~ADC_average()                       build/main.o
+ADC_channel& ADC_average::add_channel<mcu::Pin_<(mcu::Periph)3, 4> >() build/main.o
+ADC_channel& ADC_average::add_channel<mcu::Pin_<(mcu::Periph)3, 5> >() build/main.o
+ADC_channel::make<mcu::Pin_<(mcu::Periph)3, 4> >()::res build/main.o
+ADC_channel::make<mcu::Pin_<(mcu::Periph)3, 5> >()::res build/main.o
+DMA1_Channel1_IRQHandler                          build/main.o
+DMA1_Channel2_3_IRQHandler                        build/main.o
+DMA1_Channel4_5_IRQHandler                        build/main.o
 Default_Handler                                   build/startup_stm32f030x6.o
-EXTI0_1_IRQHandler                                build/startup_stm32f030x6.o
-EXTI2_3_IRQHandler                                build/startup_stm32f030x6.o
-EXTI4_15_IRQHandler                               build/startup_stm32f030x6.o
+Dyn_array<unsigned short>::add_size(unsigned int) build/main.o
+EXTI0_1_IRQHandler                                build/main.o
+EXTI2_3_IRQHandler                                build/main.o
+EXTI4_15_IRQHandler                               build/main.o
 FLASH_IRQHandler                                  build/startup_stm32f030x6.o
 HardFault_Handler                                 build/startup_stm32f030x6.o
 I2C1_IRQHandler                                   build/startup_stm32f030x6.o
+List<ADC_channel>::insert(List<ADC_channel>::Iterator, ADC_channel&) build/main.o
 NMI_Handler                                       build/startup_stm32f030x6.o
 PendSV_Handler                                    build/startup_stm32f030x6.o
+Pin::is_set()                                     build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 0>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 10>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 11>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 12>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 1>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 3>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
+Pin::make<mcu::Pin_<(mcu::Periph)3, 4>, (mcu::PinMode)2, (mcu::PushPull)0>()::pin build/main.o
+Pin::make<mcu::Pin_<(mcu::Periph)3, 5>, (mcu::PinMode)2, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 6>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 8>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)3, 9>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)4, 0>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
+Pin::make<mcu::Pin_<(mcu::Periph)4, 10>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)4, 15>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)4, 1>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
 Pin::make<mcu::Pin_<(mcu::Periph)4, 2>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
+Pin::operator=(bool)                              build/main.o
+Publisher::notify()                               build/main.o
 RCC_IRQHandler                                    build/startup_stm32f030x6.o
 RTC_IRQHandler                                    build/startup_stm32f030x6.o
 Reset_Handler                                     build/startup_stm32f030x6.o
 SPI1_IRQHandler                                   build/startup_stm32f030x6.o
 SVC_Handler                                       build/startup_stm32f030x6.o
-SysTick_Handler                                   build/startup_stm32f030x6.o
-TIM14_IRQHandler                                  build/startup_stm32f030x6.o
-TIM16_IRQHandler                                  build/startup_stm32f030x6.o
-TIM17_IRQHandler                                  build/startup_stm32f030x6.o
-TIM1_BRK_UP_TRG_COM_IRQHandler                    build/startup_stm32f030x6.o
-TIM1_CC_IRQHandler                                build/startup_stm32f030x6.o
-TIM3_IRQHandler                                   build/startup_stm32f030x6.o
-USART1_IRQHandler                                 build/startup_stm32f030x6.o
+SysTick_Handler                                   build/main.o
+TIM14_IRQHandler                                  build/main.o
+TIM16_IRQHandler                                  build/main.o
+TIM17_IRQHandler                                  build/main.o
+TIM1_BRK_UP_TRG_COM_IRQHandler                    build/main.o
+TIM1_CC_IRQHandler                                build/main.o
+TIM3_IRQHandler                                   build/main.o
+TickSubscriber::tick_subscribe()                  build/main.o
+TickSubscriber::tick_unsubscribe()                build/main.o
+TickUpdater::interrupt()                          build/main.o
+Timer::done()                                     build/main.o
+Timer::event()                                    build/main.o
+Timer::isCount()                                  build/main.o
+Timer::isGreater(unsigned long)                   build/main.o
+Timer::pause()                                    build/main.o
+Timer::start()                                    build/main.o
+Timer::start(unsigned long)                       build/main.o
+Timer::stop()                                     build/main.o
+Timer::timeLeft()                                 build/main.o
+Timer::timePassed()                               build/main.o
+USART1_IRQHandler                                 build/main.o
 WWDG_IRQHandler                                   build/startup_stm32f030x6.o
-__bss_end__                                       /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
-__bss_start__                                     /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
-__call_exitprocs                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
-__deregister_frame_info                           /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
-__dso_handle                                      /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
-__init_array_end                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
-__init_array_start                                /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
-__libc_fini_array                                 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
-__libc_init_array                                 /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
+__aeabi_atexit                                    /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
+                                                  build/main.o
+__aeabi_cdcmpeq                                   /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdcmple                                   /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_cdrcmple                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmpeq                                    /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmpge                                    /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmpgt                                    /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmple                                    /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__aeabi_dcmplt                                    /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+                                                  build/main.o
+__aeabi_dmul                                      /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+                                                  build/main.o
+__aeabi_i2d                                       /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatsidf.o)
+                                                  build/main.o
+__aeabi_idiv                                      /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+                                                  build/main.o
+__aeabi_idiv0                                     /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+__aeabi_idivmod                                   /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+__aeabi_ldiv0                                     /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_dvmd_tls.o)
+__aeabi_ui2d                                      /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+                                                  build/main.o
+__aeabi_uidiv                                     /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                                                  build/main.o
+__aeabi_uidivmod                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
+                                                  build/main.o
+__bss_end__                                       /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+__bss_start__                                     /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+__call_exitprocs                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+__clzsi2                                          /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_clzsi2.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatunsidf.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(floatsidf.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(muldf3.o)
+__cxa_atexit                                      /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libstdc++_nano.a(atexit_arm.o)
+__cxa_atexit_dummy                                /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+__deregister_frame_info                           /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+__divsi3                                          /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_divsi3.o)
+__dso_handle                                      /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                                                  build/main.o
+__eqdf2                                           /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__gedf2                                           /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__gnu_thumb1_case_uhi                             /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uhi.o)
+                                                  build/main.o
+__gnu_thumb1_case_uqi                             /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_thumb1_case_uqi.o)
+                                                  build/main.o
+__gtdf2                                           /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(gedf2.o)
+__init_array_end                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+__init_array_start                                /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+__ledf2                                           /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_arm_cmpdf2.o)
+__libc_fini_array                                 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+__libc_init_array                                 /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
                                                   build/startup_stm32f030x6.o
-                                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
-__preinit_array_end                               /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
-__preinit_array_start                             /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
-__register_frame_info                             /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crtbegin.o
-__sf_fake_stderr                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
-__sf_fake_stdin                                   /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
-__sf_fake_stdout                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
-__stack                                           /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+__ltdf2                                           /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(ledf2.o)
+__nedf2                                           /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(eqdf2.o)
+__on_exit_args                                    /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-on_exit_args.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+__preinit_array_end                               /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+__preinit_array_start                             /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+__register_exitproc                               /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-cxa_atexit.o)
+__register_frame_info                             /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+__sf_fake_stderr                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+__sf_fake_stdin                                   /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+__sf_fake_stdout                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+__stack                                           /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+__udivsi3                                         /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/libgcc.a(_udivsi3.o)
 _ebss                                             build/startup_stm32f030x6.o
 _edata                                            build/startup_stm32f030x6.o
 _estack                                           build/startup_stm32f030x6.o
-_exit                                             /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libnosys.a(_exit.o)
-                                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
-_fini                                             /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
-_global_impure_ptr                                /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
-                                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
-_impure_ptr                                       /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-impure.o)
-_init                                             /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v6-m/nofp/crti.o
-                                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-init.o)
-_mainCRTStartup                                   /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+_exit                                             /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a(_exit.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+_fini                                             /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+_global_impure_ptr                                /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+_impure_ptr                                       /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-impure.o)
+_init                                             /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-init.o)
+_mainCRTStartup                                   /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
 _sbss                                             build/startup_stm32f030x6.o
 _sdata                                            build/startup_stm32f030x6.o
 _sidata                                           build/startup_stm32f030x6.o
-_start                                            /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
-atexit                                            /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
-exit                                              /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-exit.o)
-                                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+_start                                            /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+atexit                                            /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+exit                                              /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-exit.o)
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
 g_pfnVectors                                      build/startup_stm32f030x6.o
+guard variable for ADC_average::make<(mcu::Periph)15, (mcu::Periph)30>(unsigned int)::res build/main.o
+guard variable for ADC_channel::make<mcu::Pin_<(mcu::Periph)3, 4> >()::res build/main.o
+guard variable for ADC_channel::make<mcu::Pin_<(mcu::Periph)3, 5> >()::res build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 0>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 10>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 11>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 12>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 1>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 3>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
+guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 4>, (mcu::PinMode)2, (mcu::PushPull)0>()::pin build/main.o
+guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 5>, (mcu::PinMode)2, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 6>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 8>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)3, 9>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 0>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
+guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 10>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 15>, (mcu::PinMode)1, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 1>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
 guard variable for Pin::make<mcu::Pin_<(mcu::Periph)4, 2>, (mcu::PinMode)0, (mcu::PushPull)0>()::pin build/main.o
-hardware_init_hook                                /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+hardware_init_hook                                /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+heap                                              build/main.o
 init_clock                                        build/main.o
                                                   build/startup_stm32f030x6.o
+interrupt_DMA1_channel1                           build/main.o
+interrupt_DMA1_channel2                           build/main.o
+interrupt_DMA1_channel3                           build/main.o
+interrupt_DMA1_channel4                           build/main.o
+interrupt_DMA1_channel5                           build/main.o
+interrupt_EXTI0                                   build/main.o
+interrupt_EXTI1                                   build/main.o
+interrupt_EXTI10                                  build/main.o
+interrupt_EXTI11                                  build/main.o
+interrupt_EXTI12                                  build/main.o
+interrupt_EXTI13                                  build/main.o
+interrupt_EXTI14                                  build/main.o
+interrupt_EXTI15                                  build/main.o
+interrupt_EXTI2                                   build/main.o
+interrupt_EXTI3                                   build/main.o
+interrupt_EXTI4                                   build/main.o
+interrupt_EXTI5                                   build/main.o
+interrupt_EXTI6                                   build/main.o
+interrupt_EXTI7                                   build/main.o
+interrupt_EXTI8                                   build/main.o
+interrupt_EXTI9                                   build/main.o
+interrupt_rtc                                     build/main.o
+interrupt_spi1                                    build/main.o
+interrupt_tim1                                    build/main.o
+interrupt_tim3                                    build/main.o
+interrupt_usart1                                  build/main.o
 main                                              build/main.o
                                                   build/startup_stm32f030x6.o
-                                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+mcu::DMA::clear_interrupt_flags(mcu::DMA::Channel) build/main.o
+mcu::DMA::is_transfer_complete_interrupt(mcu::DMA::Channel) build/main.o
+mcu::EXTI::clear_interrupt_flags(int)             build/main.o
+mcu::EXTI::set_trigger(mcu::EXTI::Edge, int, bool) build/main.o
+mcu::EXTI::toggle_trigger(mcu::EXTI::Edge, int)   build/main.o
 mcu::FLASH::start_erase(mcu::FLASH::Sector)       build/main.o
 mcu::FLASH::unlock()                              build/main.o
-memset                                            /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(lib_a-memset.o)
-                                                  /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
-meta::tuple_generate_impl<Pin&, std::integer_sequence<unsigned int, __integer_pack(5), __integer_pack(5), __integer_pack(5), __integer_pack(5), __integer_pack(5)> >::type make_pins<(mcu::PinMode)0, mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2> >() build/main.o
-meta::tuple_generate_impl<Pin&, std::integer_sequence<unsigned int, __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8), __integer_pack(8)> >::type make_pins<(mcu::PinMode)1, mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15> >() build/main.o
-software_init_hook                                /home/ap/code/gcc-arm-none-eabi-8-2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o
+mcu::TIM::compare_disable(mcu::TIM::Channel)      build/main.o
+mcu::TIM::compare_enable(mcu::TIM::Channel)       build/main.o
+mcu::TIM::interrupt_enable(mcu::TIM::Channel)     build/main.o
+mcu::TIM::is_compare(mcu::TIM::Channel)           build/main.o
+mcu::TIM::set_compare(mcu::TIM::Channel, unsigned long) build/main.o
+mcu::USART::set(mcu::USART::Baudrate, mcu::Periph) build/main.o
+memcpy                                            /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memcpy-stub.o)
+                                                  build/main.o
+memset                                            /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a(lib_a-memset.o)
+                                                  build/main.o
+                                                  /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+meta::tuple_generate_impl<Pin&, std::_Make_integer_sequence<unsigned int, 6, std::_Build_index_tuple<6>::__type>::__type>::type make_pins<(mcu::PinMode)0, mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2>, mcu::Pin_<(mcu::Periph)4, 10> >() build/main.o
+meta::tuple_generate_impl<Pin&, std::_Make_integer_sequence<unsigned int, 8, std::_Build_index_tuple<8>::__type>::__type>::type make_pins<(mcu::PinMode)1, mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15> >() build/main.o
+meta::tuple_generate_impl<Pin&, std::_Make_integer_sequence<unsigned int, sizeof (mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15>), std::_Build_index_tuple<sizeof (mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15>)>::__type>::__type>::type make_pins<(mcu::PinMode)1, mcu::Pin_<(mcu::Periph)3, 1>, mcu::Pin_<(mcu::Periph)3, 12>, mcu::Pin_<(mcu::Periph)3, 11>, mcu::Pin_<(mcu::Periph)3, 10>, mcu::Pin_<(mcu::Periph)3, 0>, mcu::Pin_<(mcu::Periph)3, 9>, mcu::Pin_<(mcu::Periph)3, 8>, mcu::Pin_<(mcu::Periph)4, 15> >() build/main.o
+meta::tuple_generate_impl<Pin&, std::_Make_integer_sequence<unsigned int, sizeof (mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2>, mcu::Pin_<(mcu::Periph)4, 10>), std::_Build_index_tuple<sizeof (mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2>, mcu::Pin_<(mcu::Periph)4, 10>)>::__type>::__type>::type make_pins<(mcu::PinMode)0, mcu::Pin_<(mcu::Periph)3, 3>, mcu::Pin_<(mcu::Periph)3, 6>, mcu::Pin_<(mcu::Periph)4, 0>, mcu::Pin_<(mcu::Periph)4, 1>, mcu::Pin_<(mcu::Periph)4, 2>, mcu::Pin_<(mcu::Periph)4, 10> >() build/main.o
+software_init_hook                                /home/users/aag/code/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+tickUpdater                                       build/main.o
+vtable for ADC_average                            build/main.o
