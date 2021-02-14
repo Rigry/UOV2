@@ -8,6 +8,8 @@
 #include "flash.h"
 #include "pin.h"
 #include "adc.h"
+#include "hysteresis.h"
+#include "NTC_table.h"
 // #include "sensor.h"
 
 /// эта функция вызывается первой в startup файле
@@ -54,34 +56,45 @@ int main()
    }adc;
 
    adc.control.start();
-   
-   // volatile uint16_t temperature{0};
-   // auto temp = [&](uint16_t adc) {
-   //    adc = adc / conversion_on_channel;
-   //    auto p = std::lower_bound(
-   //       std::begin(NTC::u2904<U,R>),
-   //       std::end(NTC::u2904<U,R>),
-   //       adc,
-   //       std::greater<uint32_t>());
-   //    temperature = (p - NTC::u2904<U,R>);
-   // };
 
-   bool uzon{false};
-   bool uzen{false};
+   const size_t U = 33;
+   const size_t R = 5100;
+   
+   volatile uint16_t temperature{0};
+   auto temp = [&](uint16_t adc) {
+      adc = adc / conversion_on_channel;
+      auto p = std::lower_bound(
+         std::begin(NTC::u2904<U,R>),
+         std::end(NTC::u2904<U,R>),
+         adc,
+         std::greater<uint32_t>());
+      temperature = (p - NTC::u2904<U,R>);
+   };
+
+   bool on{false};
 
    while(1){
 
       flash.max_uv_level = adc.uv_level > flash.max_uv_level ? adc.uv_level : flash.max_uv_level;
-      
-      uv_work = uv_on = en_uv ? true : false;
-      uz_work = uz_on = en_uz ? true : false;
 
-      uzon = uz_on;
-      uzen = en_uz;
+      temp(adc.temperature);
+      overheat = Hysteresis(temperature, 20, 40);
+      
+      on ^= rc_on:
+      
+      if (not rc) {
+         uv_work = uv_on = (en_uv and not overheat);
+         uz_work = uz_on = (en_uz and not overheat);
+      } else {
+         uv_work = uv_on = (on and not overhear);
+         uz_work = uz_on = (on and not overhear);
+      }
       
       level    = (en_uv & (adc.uv_level < (flash.max_uv_level * 0.4)));
       uv_alarm = (en_uv & not epra) ? true : false;
       uz_alarm = (en_uz & not uz  ) ? true : false;
+
+
 
       __WFI();
    }
