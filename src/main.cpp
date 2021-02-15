@@ -8,6 +8,7 @@
 #include "flash.h"
 #include "pin.h"
 #include "adc.h"
+#include "button.h"
 #include "hysteresis.h"
 #include "NTC_table.h"
 // #include "sensor.h"
@@ -44,9 +45,13 @@ int main()
       , mcu::FLASH::Sector::_25
    >::make (&flash);
 
-   auto[epra, uz, en_uv, en_uz, rc, rc_on] = make_pins<mcu::PinMode::Input, EPRA, UZ, EN_UV, EN_UZ, RC, RC_ON>();
+   auto[epra, uz, en_uv, en_uz, rc] = make_pins<mcu::PinMode::Input, EPRA, UZ, EN_UV, EN_UZ, RC>();
    auto[uv_on, uv_work, uv_alarm, level, uz_on, uz_work, uz_alarm, overheat] 
         = make_pins<mcu::PinMode::Output, UV_ON, UV_WORK, UV_ALARM, LEVEL, UZ_ON, UZ_WORK, UZ_ALARM, OVERHEAT>();
+
+   bool on{false};
+   auto rc_on = Button<RC_ON>();
+   rc_on.set_down_callback([&]{ on ^= 1;});
 
    constexpr auto conversion_on_channel {16};
    struct ADC_{
@@ -71,30 +76,30 @@ int main()
       temperature = (p - NTC::u2904<U,R>);
    };
 
-   bool on{false};
-
    while(1){
-
-      flash.max_uv_level = adc.uv_level > flash.max_uv_level ? adc.uv_level : flash.max_uv_level;
 
       temp(adc.temperature);
       overheat = Hysteresis(temperature, 20, 40);
-      
-      on ^= rc_on:
+
+      flash.max_uv_level = adc.uv_level > flash.max_uv_level ? adc.uv_level : flash.max_uv_level;
       
       if (not rc) {
+         on = false;
+         
          uv_work = uv_on = (en_uv and not overheat);
          uz_work = uz_on = (en_uz and not overheat);
+
+         level    = (en_uv & (adc.uv_level < (flash.max_uv_level * 0.4)));
+         uv_alarm = (en_uv & not epra);
+         uz_alarm = (en_uz & not uz  );
       } else {
-         uv_work = uv_on = (on and not overhear);
-         uz_work = uz_on = (on and not overhear);
+         uv_work = uv_on = (on and not overheat);
+         uz_work = uz_on = (on and not overheat);
+
+         level    = (on & (adc.uv_level < (flash.max_uv_level * 0.4)));
+         uv_alarm = (on & not epra);
+         uz_alarm = (on & not uz  );
       }
-      
-      level    = (en_uv & (adc.uv_level < (flash.max_uv_level * 0.4)));
-      uv_alarm = (en_uv & not epra) ? true : false;
-      uz_alarm = (en_uz & not uz  ) ? true : false;
-
-
 
       __WFI();
    }

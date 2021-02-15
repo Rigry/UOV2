@@ -28,8 +28,8 @@ build/main.d: src/main.cpp ../mculib3/src/periph/init_clock.h \
  ../mculib3/src/periph/periph_spi.h ../mculib3/src/periph/periph_tim.h \
  ../mculib3/src/periph/tim_f0_f4.h ../mculib3/src/bits/bits_tim_f0.h \
  ../mculib3/src/periph/periph_exti.h ../mculib3/src/periph/exti_f0.h \
- ../mculib3/src/bits/bits_exti_f0.h ../mculib3/src/hysteresis.h \
- ../mculib3/src/NTC_table.h
+ ../mculib3/src/bits/bits_exti_f0.h ../mculib3/src/button.h \
+ ../mculib3/src/hysteresis.h ../mculib3/src/NTC_table.h
 
 ../mculib3/src/periph/init_clock.h:
 
@@ -134,6 +134,8 @@ build/main.d: src/main.cpp ../mculib3/src/periph/init_clock.h \
 ../mculib3/src/periph/exti_f0.h:
 
 ../mculib3/src/bits/bits_exti_f0.h:
+
+../mculib3/src/button.h:
 
 ../mculib3/src/hysteresis.h:
 
