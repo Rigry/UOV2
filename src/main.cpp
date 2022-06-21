@@ -45,13 +45,13 @@ int main()
       , mcu::FLASH::Sector::_25
    >::make (&flash);
 
-   auto[epra, uz, en_uv, en_uz, rc] = make_pins<mcu::PinMode::Input, EPRA, UZ, EN_UV, EN_UZ, RC>();
+   auto[epra, uz, en_uv, en_uz, rc, on] = make_pins<mcu::PinMode::Input, EPRA, UZ, EN_UV, EN_UZ, RC, RC_ON>();
    auto[uv_on, uv_work, uv_alarm, level, uz_on, uz_work, uz_alarm, overheat] 
         = make_pins<mcu::PinMode::Output, UV_ON, UV_WORK, UV_ALARM, LEVEL, UZ_ON, UZ_WORK, UZ_ALARM, OVERHEAT>();
 
-   bool on{false};
-   auto rc_on = Button<RC_ON>();
-   rc_on.set_down_callback([&]{ on ^= 1;});
+   // bool on{false};
+   // auto rc_on = Button<RC_ON>();
+   // rc_on.set_down_callback([&]{ on ^= 1;});
 
    constexpr auto conversion_on_channel {16};
    struct ADC_{
