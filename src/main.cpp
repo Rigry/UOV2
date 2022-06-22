@@ -11,6 +11,7 @@
 #include "button.h"
 #include "hysteresis.h"
 #include "NTC_table.h"
+#include "timers.h"
 // #include "sensor.h"
 
 /// эта функция вызывается первой в startup файле
@@ -76,7 +77,19 @@ int main()
       temperature = (p - NTC::u2904<U,R>);
    };
 
+   Timer timer{};
+   bool delay{false};
+
    while(1){
+
+      if (on and not delay) {
+         timer.start(2000);
+      }
+
+      if (timer.done()) {
+         delay = true;
+         timer.stop();
+      }
 
       temp(adc.temperature);
       overheat = Hysteresis(temperature, 20, 40);
@@ -89,14 +102,14 @@ int main()
          uv_work = uv_on = (en_uv and not overheat);
          uz_work = uz_on = (en_uz and not overheat);
 
-         level    = (en_uv & (adc.uv_level < (flash.max_uv_level * 0.4)));
+         level    = (en_uv & delay & (adc.uv_level < (flash.max_uv_level * 0.4)));
          uv_alarm = (en_uv & not epra);
          uz_alarm = (en_uz & not uz  );
       } else {
          uv_work = uv_on = (on and not overheat);
          uz_work = uz_on = (on and not overheat);
 
-         level    = (on & (adc.uv_level < (flash.max_uv_level * 0.4)));
+         level    = (on & delay & (adc.uv_level < (flash.max_uv_level * 0.4)));
          uv_alarm = (on & not epra);
          uz_alarm = (on & not uz  );
       }
