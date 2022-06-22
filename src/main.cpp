@@ -83,7 +83,7 @@ int main()
    while(1){
 
       if (on and not delay) {
-         timer.start(2000);
+         timer.start(120000);
       }
 
       if (timer.done()) {
