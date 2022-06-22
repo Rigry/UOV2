@@ -42,8 +42,8 @@ int main()
    }flash;
 
    [[maybe_unused]] auto _ = Flash_updater<
-        mcu::FLASH::Sector::_26
-      , mcu::FLASH::Sector::_25
+        mcu::FLASH::Sector::_11
+      , mcu::FLASH::Sector::_10
    >::make (&flash);
 
    auto[epra, uz, en_uv, en_uz, rc, on] = make_pins<mcu::PinMode::Input, EPRA, UZ, EN_UV, EN_UZ, RC, RC_ON>();
@@ -80,9 +80,15 @@ int main()
    Timer timer{};
    bool delay{false};
 
+   volatile bool l{false};
+   volatile uint16_t lev{0};
+   volatile bool en{false};
+
    while(1){
 
-      if (on and not delay) {
+      lev = adc.uv_level;
+
+      if ((on or en_uv) and not delay) {
          timer.start(120000);
       }
 
@@ -102,17 +108,24 @@ int main()
          uv_work = uv_on = (en_uv and not overheat);
          uz_work = uz_on = (en_uz and not overheat);
 
-         level    = (en_uv & (not delay or (adc.uv_level < (flash.max_uv_level * 0.4)) ));
+         level    = (en_uv & (delay and (adc.uv_level < (flash.max_uv_level * 0.4)) ));
          uv_alarm = (en_uv & not epra);
          uz_alarm = (en_uz & not uz  );
       } else {
          uv_work = uv_on = (on and not overheat);
          uz_work = uz_on = (on and not overheat);
 
-         level    = (on & (not delay or (adc.uv_level < (flash.max_uv_level * 0.4)) ));
+         level    = (on & (delay and (adc.uv_level < (flash.max_uv_level * 0.4)) ));
          uv_alarm = (on & not epra);
          uz_alarm = (on & not uz  );
       }
+
+      if (not en_uv and not on) {
+         delay = false;
+      }
+
+      l = level;
+      en = en_uv;
 
       __WFI();
    }
