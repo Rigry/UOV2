@@ -78,15 +78,16 @@ int main()
    };
 
    Timer timer{};
+   Timer filter{10'000};
    bool delay{false};
 
-   volatile bool l{false};
-   volatile uint16_t lev{0};
-   volatile bool en{false};
+   // volatile bool l{false};
+   // volatile uint16_t lev{0};
+   // volatile bool en{false};
 
    while(1){
 
-      lev = adc.uv_level;
+      // lev = adc.uv_level;
 
       if ((on or en_uv) and not delay) {
          timer.start(120000);
@@ -109,23 +110,25 @@ int main()
          uz_work = uz_on = (en_uz and not overheat);
 
          level    = (en_uv & (delay and (adc.uv_level < (flash.max_uv_level * 0.4)) ));
-         uv_alarm = (en_uv & not epra);
+         if (filter.event())
+            uv_alarm = (en_uv & not epra);
          uz_alarm = (en_uz & not uz  );
       } else {
          uv_work = uv_on = (on and not overheat);
          uz_work = uz_on = (on and not overheat);
 
          level    = (on & (delay and (adc.uv_level < (flash.max_uv_level * 0.4)) ));
-         uv_alarm = (on & not epra);
-         uz_alarm = (on & not uz  );
+         if (filter.event())
+            uv_alarm = (on & not epra);
+         uz_alarm = (on & not uz);
       }
 
       if (not en_uv and not on) {
          delay = false;
       }
 
-      l = level;
-      en = en_uv;
+      // l = level;
+      // en = en_uv;
 
       __WFI();
    }
