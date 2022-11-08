@@ -77,25 +77,26 @@ int main()
       temperature = (p - NTC::u2904<U,R>);
    };
 
-   Timer timer{};
-   Timer filter{10'000};
-   bool delay{false};
-
-   // volatile bool l{false};
-   // volatile uint16_t lev{0};
-   // volatile bool en{false};
+   Timer delay_level{};
+   Timer delay_epra{};
+   bool level_delay{false};
+   bool epra_delay{false};
 
    while(1){
 
-      // lev = adc.uv_level;
-
-      if ((on or en_uv) and not delay) {
-         timer.start(120000);
+      if ((on or en_uv) and not level_delay and not epra_delay) {
+         delay_level.start(120000);
+         delay_epra.start(30000);
       }
 
-      if (timer.done()) {
-         delay = true;
-         timer.stop();
+      if (delay_level.done()) {
+         level_delay = true;
+         delay_level.stop();
+      }
+
+      if (delay_epra.done()) {
+         epra_delay = true;
+         delay_epra.stop();
       }
 
       temp(adc.temperature);
@@ -109,26 +110,36 @@ int main()
          uv_work = uv_on = (en_uv and not overheat);
          uz_work = uz_on = (en_uz and not overheat);
 
-         level    = (en_uv & (delay and (adc.uv_level < (flash.max_uv_level * 0.4)) ));
-         if (filter.event())
-            uv_alarm = (en_uv & not epra);
-         uz_alarm = (en_uz & not uz  );
+         if (adc.uv_level > (flash.max_uv_level * 0.45)) {
+            level = false;
+         } else if (adc.uv_level < (flash.max_uv_level * 0.4)){
+            level = (en_uv & (level_delay));
+            level = level & true;
+         }
+         
+         uv_alarm = (en_uv & not epra and epra_delay);
+         uz_alarm = (en_uz & not uz);
       } else {
          uv_work = uv_on = (on and not overheat);
          uz_work = uz_on = (on and not overheat);
 
-         level    = (on & (delay and (adc.uv_level < (flash.max_uv_level * 0.4)) ));
-         if (filter.event())
-            uv_alarm = (on & not epra);
+         // level = (on & (level_delay and (adc.uv_level < (flash.max_uv_level * 0.4)) ));
+         if (adc.uv_level > (flash.max_uv_level * 0.45)) {
+            level = false;
+         } else if (adc.uv_level < (flash.max_uv_level * 0.4)){
+            level = (on & (level_delay));
+            level = level & true;
+         }
+         uv_alarm = (on & not epra and epra_delay);
          uz_alarm = (on & not uz);
       }
 
       if (not en_uv and not on) {
-         delay = false;
+         level_delay = false;
+         delay_level.stop();
+         epra_delay = false;
+         delay_epra.stop();
       }
-
-      // l = level;
-      // en = en_uv;
 
       __WFI();
    }
