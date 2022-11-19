@@ -89,12 +89,12 @@ int main()
          delay_epra.start(30000);
       }
 
-      if (delay_level.done()) {
+      if (delay_level.done() and not level_delay) {
          level_delay = true;
          delay_level.stop();
       }
 
-      if (delay_epra.done()) {
+      if (delay_epra.done() and not epra_delay) {
          epra_delay = true;
          delay_epra.stop();
       }
@@ -120,6 +120,7 @@ int main()
          uv_alarm = (en_uv & not epra and epra_delay);
          uz_alarm = (en_uz & not uz);
       } else {
+         en_uv = false;
          uv_work = uv_on = (on and not overheat);
          uz_work = uz_on = (on and not overheat);
 
@@ -134,7 +135,14 @@ int main()
          uz_alarm = (on & not uz);
       }
 
-      if (not en_uv and not on) {
+      if (rc and not on) {
+         level_delay = false;
+         delay_level.stop();
+         epra_delay = false;
+         delay_epra.stop();
+      }
+
+      if (not en_uv and not rc) {
          level_delay = false;
          delay_level.stop();
          epra_delay = false;
