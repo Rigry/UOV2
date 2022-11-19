@@ -117,7 +117,7 @@ int main()
             level = level & true;
          }
          
-         uv_alarm = (en_uv & not epra and epra_delay);
+         uv_alarm = (en_uv & not epra and epra_delay) or level;
          uz_alarm = (en_uz & not uz);
       } else {
          en_uv = false;
@@ -131,7 +131,7 @@ int main()
             level = (on & (level_delay));
             level = level & true;
          }
-         uv_alarm = (on & not epra and epra_delay);
+         uv_alarm = (on & not epra and epra_delay) or level;
          uz_alarm = (on & not uz);
       }
 
