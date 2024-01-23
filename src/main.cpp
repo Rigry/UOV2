@@ -39,6 +39,7 @@ int main()
 {
    struct Flash_data {
       uint16_t max_uv_level = 0;
+      uint16_t n = 0;
    }flash;
 
    [[maybe_unused]] auto _ = Flash_updater<
@@ -79,14 +80,29 @@ int main()
 
    Timer delay_level{};
    Timer delay_epra{};
+   Timer delay_uz{};
+   Timer wait_5s{};
    bool level_delay{false};
    bool epra_delay{false};
+   bool uz_delay{false};
 
    while(1){
+
+      if(flash.n >= 3) {
+         flash.max_uv_level = 0;
+         flash.n = 0;
+      }
+
+      if( (on or en_uz) and not uz_delay) delay_uz.start(2'000);
 
       if ((on or en_uv) and not level_delay and not epra_delay) {
          delay_level.start(120000);
          delay_epra.start(30000);
+      }
+
+      if(delay_uz.done() and not uz_delay) {
+         uz_delay = true;
+         delay_uz.stop();
       }
 
       if (delay_level.done() and not level_delay) {
@@ -118,8 +134,25 @@ int main()
          }
          
          uv_alarm = (en_uv & not epra and epra_delay) or level;
-         uz_alarm = (en_uz & not uz);
+         uz_alarm = (en_uz & not uz and uz_delay);
+
+         if(en_uv and not wait_5s.isCount()) {
+            wait_5s.start(5'000);
+            flash.n++;
+         } else {
+            wait_5s.stop();
+         }
+
+         if(wait_5s.done()) {
+            wait_5s.stop();
+            flash.n = 0;
+         }
+
       } else {
+
+         flash.n = 0;
+         if(wait_5s.isCount()) wait_5s.stop();
+
          en_uv = false;
          uv_work = uv_on = (on and not overheat);
          uz_work = uz_on = (on and not overheat);
