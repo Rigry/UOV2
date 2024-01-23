@@ -165,7 +165,7 @@ int main()
             level = level & true;
          }
          uv_alarm = (on & not epra and epra_delay) or level;
-         uz_alarm = (on & not uz);
+         uz_alarm = (on & not uz and uz_delay);
       }
 
       if (rc and not on) {
@@ -173,6 +173,8 @@ int main()
          delay_level.stop();
          epra_delay = false;
          delay_epra.stop();
+         uz_delay = false;
+         delay_uz.stop();
       }
 
       if (not en_uv and not rc) {
@@ -180,6 +182,8 @@ int main()
          delay_level.stop();
          epra_delay = false;
          delay_epra.stop();
+         uz_delay = false;
+         delay_uz.stop();
       }
 
       __WFI();
