@@ -43,8 +43,8 @@ int main()
    }flash;
 
    [[maybe_unused]] auto _ = Flash_updater<
-        mcu::FLASH::Sector::_11
-      , mcu::FLASH::Sector::_10
+        mcu::FLASH::Sector::_15
+      , mcu::FLASH::Sector::_14
    >::make (&flash);
 
    auto[epra, uz, en_uv, en_uz, rc, on] = make_pins<mcu::PinMode::Input, EPRA, UZ, EN_UV, EN_UZ, RC, RC_ON>();
@@ -82,9 +82,11 @@ int main()
    Timer delay_epra{};
    Timer delay_uz{};
    Timer wait_5s{};
+   Timer after_on{5000};
    bool level_delay{false};
    bool epra_delay{false};
    bool uz_delay{false};
+   bool wait{false};
 
    while(1){
 
@@ -93,7 +95,9 @@ int main()
          flash.n = 0;
       }
 
-      if( (on or en_uz) and not uz_delay) delay_uz.start(2'000);
+      if( (on or en_uz) and not uz_delay) {
+         delay_uz.start(2000);
+      } 
 
       if ((on or en_uv) and not level_delay and not epra_delay) {
          delay_level.start(120000);
@@ -123,7 +127,7 @@ int main()
       if (not rc) {
          on = false;
          
-         uv_work = uv_on = (en_uv and not overheat);
+         uv_work = uv_on = (en_uv and not overheat and not after_on.isCount() );
          uz_work = uz_on = (en_uz and not overheat);
 
          if (adc.uv_level > (flash.max_uv_level * 0.45)) {
@@ -136,15 +140,19 @@ int main()
          uv_alarm = (en_uv & not epra and epra_delay) or level;
          uz_alarm = (en_uz & not uz and uz_delay);
 
-         if(en_uv and not wait_5s.isCount()) {
-            wait_5s.start(5'000);
+         if(en_uv and not wait_5s.isCount() and not wait and after_on.isCount()) {
+            wait_5s.start(5000);
             flash.n++;
-         } else {
-            wait_5s.stop();
+            wait = true;
          }
 
          if(wait_5s.done()) {
             wait_5s.stop();
+            flash.n = 0;
+         }
+
+         if(after_on.done()) {
+            after_on.stop();
             flash.n = 0;
          }
 
@@ -182,6 +190,11 @@ int main()
          delay_level.stop();
          epra_delay = false;
          delay_epra.stop();
+         wait = false;
+         wait_5s.stop();
+      }
+
+      if(not en_uz and not rc) {
          uz_delay = false;
          delay_uz.stop();
       }
